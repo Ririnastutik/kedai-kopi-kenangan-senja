@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:1.4rem 7%;
+    padding: 1.4rem 7%;
     background-color: rgba(1, 1, 1, 0.8);
     border-bottom: 1px solid #513c28;
     position: fixed;
@@ -92,7 +92,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('cofffee.jpg');
+    background-image: url('coffeeee.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -153,7 +153,7 @@ body {
     padding: 8rem 7% 1.4rem;
 }
 
-.about h2,.menu h2,.contact h2 {
+.about h2 ,.menu h2,.contact h2 {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
@@ -165,15 +165,15 @@ body {
 }
 
 .about .row {
-    display:flex;
+    display: flex;
 }
 
 .about .row .about-img {
-    flex: 1 2 45rem;
+    flex: 1 1 45rem;
 }
 
 .about .row .about-img img {
-      width: 100;
+      width: 95%;
 
 }
 
@@ -183,15 +183,15 @@ body {
 }
 
 .about .row .content h3 {
-    font-size: 1.0rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
 .about .row .content p {
     margin-bottom: 0.8rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 100;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 /* menu section */
@@ -220,8 +220,8 @@ body {
 }
 
 .menu .row .menu-card img {
-    border-radius: 50%;
-    width: 80;
+    border-radius: 40%;
+    width: 75%;
 }
 
 .menu .row .menu-card .menu-card-title {
@@ -233,13 +233,12 @@ body {
     display: flex;
     margin-top: 2rem;
     background-color: #222;
-    flex-wrap: wrap;
 }
 
 
 .contact .row .map {
     flex: 1 1 45rem;
-    width: 100vh;
+    width: 100%;
     object-fit: cover;
 }
 
